@@ -24,8 +24,10 @@ Bu gösterim, ROM’da sabit tanımlı değerlerle yapılan ilk testin ardından
 ## Sistem Mimarisi
 ### 8-bit Bilgisayar Sisteminin Genel Yapısı
 <img width="708" height="640" alt="Şekil 2-1" src="https://github.com/user-attachments/assets/c45c5d55-4714-4281-b06a-23fe5a28853f" />
-8-bit bilgisayar sisteminin temel blok yapısı verilmiştir. Sistem; CPU, program belleği, veri belleği ve giriş/çıkış portlarından oluşmaktadır.
+
+*8-bit bilgisayar sisteminin temel blok yapısı verilmiştir. Sistem; CPU, program belleği, veri belleği ve giriş/çıkış portlarından oluşmaktadır.*
 
 ### CPU İç Yapısı
 <img width="495" height="426" alt="Şekil 2-2" src="https://github.com/user-attachments/assets/8488c18d-cfea-46ba-b2de-44fd62f9f168" />
-CPU’nun kontrol birimi ve veri yolu yapısı gösterilmiştir. Kontrol birimi fetch-decode-execute akışını yönetirken, data path içerisinde registerlar, ALU ve durum bayraklarını tutan CCR yer almaktadır.
+
+*CPU’nun kontrol birimi ve veri yolu yapısı gösterilmiştir. Kontrol birimi fetch-decode-execute akışını yönetirken, data path içerisinde registerlar, ALU ve durum bayraklarını tutan CCR yer almaktadır.*
