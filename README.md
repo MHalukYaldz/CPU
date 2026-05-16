@@ -1,4 +1,4 @@
-### ROM Tabanlı ALU Sonuç Gösterimi
+## ROM Tabanlı ALU Sonuç Gösterimi
 
 Bu çalışmada, 8-bit bilgisayar tasarımı içerisinde ALU işleminin sonucu Basys 3 FPGA kartı üzerindeki LED’ler kullanılarak görselleştirilmiştir. Test senaryosunda A ve B değerleri program belleği içerisinde sabit olarak tanımlanmış ve işlemci akışı üzerinden ALU’ya aktarılmıştır.
 
@@ -10,7 +10,7 @@ Bu uygulama, Brock J. LaMeres’in *Introduction to Logic Circuits & Logic Desig
 [ROM tabanlı ALU sonuç gösterimi videosu](https://youtube.com/shorts/BRV2C9rPbGI?feature=share)
 
 
-### Switch Kontrollü ALU Girişleri ve Carry Flag Gösterimi
+## Switch Kontrollü ALU Girişleri ve Carry Flag Gösterimi
 
 Bu çalışmada, Basys 3 FPGA kartı üzerindeki switch’ler kullanılarak ALU’nun A ve B giriş değerlerinin donanım üzerinde değiştirilebilmesi sağlanmıştır. Böylece farklı giriş kombinasyonları gerçek zamanlı olarak denenmiş ve ALU sonucunun LED’ler üzerinden gözlemlenmesi mümkün hale getirilmiştir.
 
@@ -21,6 +21,11 @@ Bu gösterim, ROM’da sabit tanımlı değerlerle yapılan ilk testin ardından
 **Video Bağlantısı:**  
 [Switch kontrollü ALU ve carry flag gösterimi videosu](https://youtube.com/shorts/BRV2C9rPbGI?feature=share)
 
-### Sistem Mimarisi
-## 8-bit Bilgisayar Sisteminin Genel Yapısı
+## Sistem Mimarisi
+### 8-bit Bilgisayar Sisteminin Genel Yapısı
 <img width="708" height="640" alt="Şekil 2-1" src="https://github.com/user-attachments/assets/c45c5d55-4714-4281-b06a-23fe5a28853f" />
+8-bit bilgisayar sisteminin temel blok yapısı verilmiştir. Sistem; CPU, program belleği, veri belleği ve giriş/çıkış portlarından oluşmaktadır.
+
+### CPU İç Yapısı
+<img width="495" height="426" alt="Şekil 2-2" src="https://github.com/user-attachments/assets/8488c18d-cfea-46ba-b2de-44fd62f9f168" />
+CPU’nun kontrol birimi ve veri yolu yapısı gösterilmiştir. Kontrol birimi fetch-decode-execute akışını yönetirken, data path içerisinde registerlar, ALU ve durum bayraklarını tutan CCR yer almaktadır.
