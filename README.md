@@ -76,8 +76,10 @@ Bu yapıda komutlar önce Program Memory’den okunarak IR register’a yükleni
 Test programında öncelikle A register’a x"A2" değeri, ardından B register’a x"C5" değeri yüklenmiştir. Daha sonra c_AtopB komutu ile A ve B register değerleri toplanmıştır. x"A2" + x"C5" işleminin sonucu x"167" olup, sistem 8-bit genişliğinde çalıştığı için düşük 8-bit sonuç x"67" olarak elde edilmektedir. Sonuç c_A_yaz komutu ile x"E0" adresine yazılmıştır. Memory map yapısına göre x"E0" adresi port_out_0 çıkışına karşılık geldiğinden, simülasyon sonucunda port_out_0 = x"67" olması beklenmektedir.
 
 ## Davranışsal Simülasyon Sonuçları
+### A Register’a Immediate Veri Yüklenmesi
+<img width="1908" height="1029" alt="S_A_yukle_sbt sinyali" src="https://github.com/user-attachments/assets/93fd820a-2c3e-4ab8-ac3f-81eaecfc39bb" />
 
-
+Program Memory’den c_A_yukle_sbt komutu okunmakta ve ardından x"A2" immediate değeri A register’a yüklenmektedir. Fetch ve decode adımlarından sonra S_A_yukle_sbt_4, S_A_yukle_sbt_5 ve S_A_yukle_sbt_6 durumları sırasıyla çalışmaktadır.
 
 
 
