@@ -71,19 +71,7 @@ Bu yapıda komutlar önce Program Memory’den okunarak IR register’a yükleni
 
 ## Test Programı ve Beklenen Sonuç
 ### Kullanılan Test Programı
-constant ROM: ROM_type := 
-(
-    0 => c_A_yukle_sbt,
-    1 => x"A2",
-    2 => c_B_yukle_sbt,
-    3 => x"C5",
-    4 => c_AtopB,
-    5 => c_A_yaz,
-    6 => x"E0",
-    7 => c_ATLA,
-    8 => x"00",
-    others => x"00"
-);
+<img width="630" height="261" alt="GITHUB_GÖRSELİ" src="https://github.com/user-attachments/assets/449b6aaa-cfd4-44d6-a6ab-53e9bdeaaeb5" />
 
 Test programında öncelikle A register’a x"A2" değeri, ardından B register’a x"C5" değeri yüklenmiştir. Daha sonra c_AtopB komutu ile A ve B register değerleri toplanmıştır. x"A2" + x"C5" işleminin sonucu x"167" olup, sistem 8-bit genişliğinde çalıştığı için düşük 8-bit sonuç x"67" olarak elde edilmektedir. Sonuç c_A_yaz komutu ile x"E0" adresine yazılmıştır. Memory map yapısına göre x"E0" adresi port_out_0 çıkışına karşılık geldiğinden, simülasyon sonucunda port_out_0 = x"67" olması beklenmektedir.
 
