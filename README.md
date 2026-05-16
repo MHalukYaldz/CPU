@@ -20,3 +20,7 @@ Bu gösterim, ROM’da sabit tanımlı değerlerle yapılan ilk testin ardından
 
 **Video Bağlantısı:**  
 [Switch kontrollü ALU ve carry flag gösterimi videosu](https://youtube.com/shorts/BRV2C9rPbGI?feature=share)
+
+### Sistem Mimarisi
+## 8-bit Bilgisayar Sisteminin Genel Yapısı
+<img width="708" height="640" alt="Şekil 2-1" src="https://github.com/user-attachments/assets/c45c5d55-4714-4281-b06a-23fe5a28853f" />
