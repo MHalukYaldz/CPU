@@ -1,2 +1,10 @@
-# CPU
-Memory system for an 8-bit Processor 
+### ROM Tabanlı ALU Sonuç Gösterimi
+
+Bu çalışmada, 8-bit bilgisayar tasarımı içerisinde ALU işleminin sonucu Basys 3 FPGA kartı üzerindeki LED’ler kullanılarak görselleştirilmiştir. Test senaryosunda A ve B değerleri program belleği içerisinde sabit olarak tanımlanmış ve işlemci akışı üzerinden ALU’ya aktarılmıştır.
+
+Bu gösterimde amaç, tasarlanan veri yolu, kontrol birimi, register yapısı, program belleği ve ALU arasındaki temel çalışma akışının donanım üzerinde gözlemlenebilmesidir. ALU sonucu doğrudan Basys 3 üzerindeki LED’lere yönlendirilerek işlem sonucunun fiziksel olarak takip edilmesi sağlanmıştır.
+
+Bu uygulama, Brock J. LaMeres’in *Introduction to Logic Circuits & Logic Design with VHDL* kitabında yer alan temel 8-bit bilgisayar projesi referans alınarak geliştirilmiştir.
+
+**Video Bağlantısı:**  
+[ROM tabanlı ALU sonuç gösterimi videosu](https://youtube.com/shorts/BRV2C9rPbGI?feature=share)
