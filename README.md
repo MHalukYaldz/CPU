@@ -8,3 +8,15 @@ Bu uygulama, Brock J. LaMeres’in *Introduction to Logic Circuits & Logic Desig
 
 **Video Bağlantısı:**  
 [ROM tabanlı ALU sonuç gösterimi videosu](https://youtube.com/shorts/BRV2C9rPbGI?feature=share)
+
+
+### Switch Kontrollü ALU Girişleri ve Carry Flag Gösterimi
+
+Bu çalışmada, Basys 3 FPGA kartı üzerindeki switch’ler kullanılarak ALU’nun A ve B giriş değerlerinin donanım üzerinde değiştirilebilmesi sağlanmıştır. Böylece farklı giriş kombinasyonları gerçek zamanlı olarak denenmiş ve ALU sonucunun LED’ler üzerinden gözlemlenmesi mümkün hale getirilmiştir.
+
+Ek olarak, aritmetik işlemler sonucunda oluşan carry flag değeri ayrı bir LED’e yönlendirilmiştir. Bu sayede toplama işlemlerinde oluşan taşıma durumu doğrudan donanım üzerinde takip edilebilmiştir.
+
+Bu gösterim, ROM’da sabit tanımlı değerlerle yapılan ilk testin ardından, tasarımın daha etkileşimli şekilde doğrulanması amacıyla hazırlanmıştır. Switch girişleri ile A ve B operandlarının değiştirilmesi, ALU davranışının farklı veri kombinasyonları altında gözlemlenmesine olanak sağlamıştır.
+
+**Video Bağlantısı:**  
+[Switch kontrollü ALU ve carry flag gösterimi videosu](https://youtube.com/shorts/BRV2C9rPbGI?feature=share)
